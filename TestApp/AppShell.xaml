@@ -5,11 +5,15 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:TestApp"
     Shell.FlyoutBehavior="Flyout"
-    Title="TestApp">
+    Title="NextGen">
 
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    <ShellContent
+    Title="Second"
+    ContentTemplate="{DataTemplate local:HelloXamlPage}"
+    Route="HelloXamlPage" />
 
 </Shell>
